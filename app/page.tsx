@@ -1,4 +1,4 @@
-import { ShowcaseComponent } from "./showcase/page";
+import { ShowcaseComponent } from "@/components/showcase-component";
 
 export default function Home() {
   return (
