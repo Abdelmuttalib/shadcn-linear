@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* oklch(0.14 0 0) sidebar */
+
+    /* oklch(24% 0.0078 269.97) sidebar hovered/selected */
+
+    /* oklch(0.24 0.0078 269.97) sidebar hovered/selected */
+
+    /* oklch(0.1995 0.0064 270.11) sidebar unactive hovered/selected */
+
+    /* oklch(0.17 0 0) background */
+
+    /* oklch(26.55% 0.0094 269.8) border, es background */
+    /* oklch(67.78% 0.0036 271.34) text subtle, es background */
+    /* oklch(91.96% 0.0036 271.41) text foreground, es background */
+
+    /* oklch(30.22% 0.0094 270.03) sec button border, es background */
+    /* oklch(24.45% 0.0099 269.55) sec button bg, es background */
+    /* oklch(27.91% 0.0126 269.3) sec button hover, es background */
+    /* oklch(21.71% 0.0025 247.94) */
+    /* oklch(21.55% 0.0025 248.19) */
+
+    /* oklch(22.98% 0.005 270.52) popover bg */
+    /* oklch(35.26% 0.0126 269.8) popover border */
+    /* oklch(55.16% 0.0036 271.27) switch bg */
+
+    /* oklch(26.87% 0.0063 270.43) ghost button hover */
+
+    /* oklch(69.76% 0.0051 271.23) oklch(69.76% 0.0051 271.23) icon subtle on popover */
+
+    /* oklch(20.97% 0.005 270.41) layer/card bg */
+    /* oklch(30.81% 0.0126 269.53) layer/card border */
+    /* oklch(33.25% 0.0126 269.69) input border on layer */
+
+    /* oklch(20.97% 0.005 270.41) task/layer card bg */
+    /* oklch(25.3% 0.0126 269.05) task/layer card border */
+    /* oklch(68.97% 0.0051 271.23) task/layer card text subtle */
+
+    /* oklch(67.78% 0.0036 271.34) icon subtle check */
+
+    /* oklch(23% 0.0081 269.82) task/layer card bg >light */
+    /* oklch(20.97% 0.005 270.41) task/layer card bg >darker */
+    /* oklch(25.91% 0.0126 269.11) border on task/layer card bg >darker */
+
+    /* LIGHT */
+
+    --color-gray-50: 0.985 0.002 247.839; /* oklch(.985 .002 247.839) */
+    --color-gray-100: 96.56% 0 102.07; /* oklch(98.56% 0 102.07) */
+
+    --color-gray-200: 92.24% 0 102.07; /* oklch(92.24% 0 102.07) */
+    --color-gray-300: 85.34% 0 102.07; /* oklch(85.34% 0 102.07) */
+    --color-gray-400: 72.69% 0.0028 145.58; /* oklch(72.69% 0.0028 145.58) */
+    --color-gray-500: 58.34% 0.0095 258.24; /* oklch(58.34% 0.0095 258.24) */
+    --color-gray-600: 49.48% 0.0028 145.59; /* oklch(43.48% 0.0028 145.59) */
+    --color-gray-700: 0.27 0.0078 269.97; /* oklch(0.27 0.0078 269.97) */
+    --color-gray-800: 20.97% 0.005 270.41; /* oklch(20.97% 0.005 270.41) */
+    --color-gray-900: 0.17 0 0; /* oklch(0.20 0 0) */
+    --color-gray-950: 0.14 0 0; /* oklch(0.17 0 0) */
+
+    --color-primary: 55.93% 0.158 274.41; /* oklch(55.93% 0.158 274.41) */
+    --color-primary-foreground: 94.96% 0.0036 271.41; /* oklch(98.56% 0 102.07) */
+
+    /* oklch(48.86% 0.0028 141.87) icon subtle on bg */
+    /* oklch(84.93% 0.0002 145.66) switch bg light */
+    /* oklch(98.56% 0 102.07) sidebar link hover light */
+    /* oklch(48.86% 0.0028 141.87) text foreground subtle light */
+    /* oklch(22.72% 0 102.07) text foreground */
+    /* oklch(96.12% 0 102.07) task/layer card border light */
+    /* oklch(94.57% 0 102.07) border on bg */
+
+    /* oklch(55.93% 0.158 274.41) */
+    /* oklch(55.93% 0.158 274.41) primary, es on button */
+    /* oklch(54.17% 0.1544 274.24) primary border, es on button */
+
+    /* oklch(77.93% 0.158 274.41) primary, es on button */
+
+    /* oklch(97.41% 0 102.07) bg like disabled */
+    /* oklch(92.24% 0 102.07) border on bg like disabled */
+    /* oklch(68.34% 0.0095 258.24) icon color on bg like disabled */
+    /* oklch(72.69% 0.0028 145.58) text color on bg like disabled */
+
+    /* oklch(98.03% 0 102.07) ghost button bg hover */
+    /* oklch(22.72% 0 102.07) ghost button text */
+
+    /* oklch(49.48% 0.0028 145.59) text foreground subtle */
+
+    /* oklch(48.86% 0.0028 141.87) ghost link text foreground subtle */
+
+    /* oklch(31.62% 0.0028 145.61) input select foreground */
+
+    /* oklch(92.24% 0 102.07) input select border */
+    /* oklch(92.24% 0 102.07) input select bg */
+    /* oklch(85.34% 0 102.07) input select border on hover */
+
+    /* box-shadow: lch(0 0 0 / 0.125) 0px 4px 30px, lch(0 0 0 / 0.04) 0px 3px 17px, lch(0 0 0 / 0.04) 0px 2px 8px, lch(0 0 0 / 0.04) 0px 1px 1px; */
+
+    /* lch(75% 0 0) dialog portal bg */
+    /* oklch(78.45% 0 102.07) */
+
+    /* oklch(49.48% 0.0028 145.59) text subtle on light */
+
+    --color-white: 100% 0 0; /* oklch(100% 0 0) */
+    --color-black: 0% 0 0; /* oklch(0% 0 0) */
+    --color-destructive: 56.92% 0.21 25.92; /* oklch(56.92% 0.21 25.92) */
+
+    --color-background: var(--color-white);
+    --color-foreground: var(--color-gray-950);
+
+    --color-layer: var(--color-white);
+
+    --background: var(--color-white);
+    --foreground: var(--color-gray-900);
+    --card: var(--color-layer);
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: var(--color-layer);
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: var(--color-primary);
+    --primary-foreground: var(--color-white);
+    /* oklch(77.27% 0.0762 273.49513098858404) */
+    /* --secondary: 98.35% 0.0509 274.41; */
+    --secondary: 0.962 0.018 272.314; /* oklch(0.962 0.018 272.314) oklch(77.93% 0.158 274.41) 60 4.8% 95.9%; */
+    /* oklch(96.35% 0.0509 274.41) */
+    --secondary-foreground: 24 9.8% 10%;
+    --muted: var(--color-gray-100);
+    --muted-foreground: var(--color-gray-500);
+    --accent: var(--color-gray-100);
+    --accent-foreground: 24 9.8% 10%;
+    --destructive: var(--color-destructive);
+    --destructive-foreground: var(--color-white);
+    --border: var(--color-border);
+    --input: var(--color-gray-200);
+    --ring: var(--color-primary);
+
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --color-background: var(--color-gray-900);
+    --color-foreground: var(--color-white);
+
+    --color-layer: var(--color-gray-800);
+
+    --background: var(--color-background);
+    --foreground: var(--color-foreground);
+    --card: var(--color-layer);
+    --card-foreground: var(--color-foreground);
+    --popover: var(--color-layer);
+    --popover-foreground: var(--color-foreground);
+    --primary: var(--color-primary);
+    --primary-foreground: var(--color-white);
+    --secondary: 0.232 0.018 272.314; /* var(--color-gray-800) */
+    --secondary-foreground: 60 9.1% 97.8%;
+    --muted: var(--color-gray-800);
+    --muted-foreground: var(--color-gray-400);
+    --accent: var(--color-gray-700);
+    --accent-foreground: var(--color-foreground);
+    --destructive: var(--color-destructive);
+    --destructive-foreground: var(--color-white);
+    --border: 26.55% 0.0094 269.8;
+    --input: 26.55% 0.0094 269.8;
+    --ring: var(--color-primary);
+
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
