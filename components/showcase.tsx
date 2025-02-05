@@ -840,7 +840,7 @@ import {
 
 export function HoverCardDemo() {
   return (
-    <HoverCard defaultOpen>
+    <HoverCard>
       <HoverCardTrigger asChild>
         <Button variant="link">@hover</Button>
       </HoverCardTrigger>
