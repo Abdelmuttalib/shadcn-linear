@@ -31,7 +31,7 @@ export default function RootLayout({
         <div className="fixed right-2 top-2 z-[9999]">
           <ThemeButton />
         </div>
-        <TailwindIndicator />
+        {/* <TailwindIndicator /> */}
         <main className="flex-1 overflow-hidden">{children}</main>
         <footer className="mt-auto flex flex-wrap items-center justify-center gap-6 border-t py-10 text-muted-foreground">
           <p>
