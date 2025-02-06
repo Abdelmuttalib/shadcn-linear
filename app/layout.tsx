@@ -33,7 +33,7 @@ export default function RootLayout({
         </div>
         {/* <TailwindIndicator /> */}
         <main className="flex-1 overflow-hidden">{children}</main>
-        <footer className="mt-auto flex flex-wrap items-center justify-center gap-6 border-t py-10 text-muted-foreground">
+        {/* <footer className="mt-auto flex flex-wrap items-center justify-center gap-6 border-t py-10 text-muted-foreground">
           <p>
             Linear shadcn ui | Made with ❤️ by{" "}
             <a
@@ -44,7 +44,7 @@ export default function RootLayout({
               Abdelmuttalib
             </a>
           </p>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
