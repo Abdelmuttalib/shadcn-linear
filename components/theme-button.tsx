@@ -7,7 +7,7 @@ export function ThemeButton() {
   return (
     <Button
       type="button"
-      variant={"ghost"}
+      variant={"secondary"}
       size="icon"
       onClick={() => {
         // set dark mode class to html
