@@ -121,35 +121,3 @@ export default function Home() {
     </main>
   );
 }
-
-export const GradientBlob = () => {
-  return (
-    <div className="absolute -z-10 h-[400px] w-[400px] blur-3xl">
-      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient
-            id="blob-gradient"
-            x1="0%"
-            y1="0%"
-            x2="100%"
-            y2="100%"
-          >
-            <stop offset="0%" style={{ stopColor: "rgba(79, 70, 229, 0.5)" }} />
-            <stop
-              offset="100%"
-              style={{ stopColor: "rgba(147, 51, 234, 0.5)" }}
-            />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#blob-gradient)"
-          d="M44.3,-76.8C55.9,-69.1,63.1,-54.3,71.3,-39.7C79.5,-25.1,88.7,-10.7,89.1,4.1C89.5,18.9,81.1,34.1,70.4,46.4C59.7,58.7,46.6,68.1,32.4,74.1C18.2,80.1,2.9,82.6,-12.3,80.5C-27.5,78.3,-42.6,71.4,-54.9,61.1C-67.2,50.8,-76.7,37.1,-80.8,22C-85,6.9,-83.8,-9.6,-78.5,-24.4C-73.2,-39.2,-63.8,-52.3,-51.3,-59.8C-38.8,-67.3,-23.2,-69.2,-7.5,-68.1C8.2,-67,23.9,-62.9,44.3,-76.8Z"
-          transform="translate(100 100)"
-          style={{
-            animation: "blob-animation 20s infinite alternate",
-          }}
-        />
-      </svg>
-    </div>
-  );
-};
