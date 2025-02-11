@@ -1597,42 +1597,42 @@ export const payments: Payment[] = [
     status: "success",
     email: "user1@domain.com",
   },
-  {
-    id: "5e6f7g8h",
-    amount: 75,
-    status: "pending",
-    email: "user2@domain.com",
-  },
-  {
-    id: "9i0j1k2l",
-    amount: 150,
-    status: "success",
-    email: "user3@domain.com",
-  },
-  {
-    id: "m3n4o5p6",
-    amount: 300,
-    status: "processing",
-    email: "user4@domain.com",
-  },
-  {
-    id: "m3n4o5d3",
-    amount: 450,
-    status: "failed",
-    email: "user9@domain.com",
-  },
-  {
-    id: "q7r8s9t0",
-    amount: 50,
-    status: "success",
-    email: "user5@domain.com",
-  },
-  {
-    id: "u1v2w3x4",
-    amount: 250,
-    status: "pending",
-    email: "user6@domain.com",
-  },
+  // {
+  //   id: "5e6f7g8h",
+  //   amount: 75,
+  //   status: "pending",
+  //   email: "user2@domain.com",
+  // },
+  // {
+  //   id: "9i0j1k2l",
+  //   amount: 150,
+  //   status: "success",
+  //   email: "user3@domain.com",
+  // },
+  // {
+  //   id: "m3n4o5p6",
+  //   amount: 300,
+  //   status: "processing",
+  //   email: "user4@domain.com",
+  // },
+  // {
+  //   id: "m3n4o5d3",
+  //   amount: 450,
+  //   status: "failed",
+  //   email: "user9@domain.com",
+  // },
+  // {
+  //   id: "q7r8s9t0",
+  //   amount: 50,
+  //   status: "success",
+  //   email: "user5@domain.com",
+  // },
+  // {
+  //   id: "u1v2w3x4",
+  //   amount: 250,
+  //   status: "pending",
+  //   email: "user6@domain.com",
+  // },
 ];
 
 function getPaymentStatusBadgeVariant(status: Payment["status"]) {
@@ -1732,7 +1732,7 @@ export function TabsDemo() {
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
-            <div className="space-y-1">
+            {/* <div className="space-y-1">
               <Label htmlFor="name">Name</Label>
               <Input
                 id="name"
@@ -1751,7 +1751,7 @@ export function TabsDemo() {
 
             <div className="space-y-1 pt-4">
               <DatePickerDemo />
-            </div>
+            </div> */}
             <div className="space-y-1 pt-4">
               <RadioGroupDemo />
             </div>

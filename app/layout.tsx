@@ -52,7 +52,7 @@ export default function RootLayout({
 
 function TailwindIndicator() {
   return (
-    <div className="fixed bottom-2 right-2 z-[9999] text-sm">
+    <div className="fixed bottom-2 right-2 z-[9999] rounded-md bg-background px-1 text-sm text-foreground">
       <div className="block sm:hidden">xs</div>
       <div className="hidden sm:block md:hidden">sm</div>
       <div className="hidden md:block lg:hidden">md</div>

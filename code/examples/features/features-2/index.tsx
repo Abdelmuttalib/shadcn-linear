@@ -1,3 +1,5 @@
+// Auto-generated file for: features/features-2/page.tsx
+const exampleCode = `
 import { cn } from "@/lib/utils";
 import { CloudUpload, Lock, Server } from "lucide-react";
 
@@ -22,7 +24,7 @@ const features = [
   },
 ];
 
-export default function Features() {
+export default function Features2() {
   return (
     <div className="overflow-hidden bg-muted/40 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -30,7 +32,7 @@ export default function Features() {
           <div className="lg:pr-8 lg:pt-4">
             <div>
               <div className="lg:max-w-lg">
-                <h2 className="text-base/7 font-semibold text-primary">
+                <h2 className="text-base/7 font-semibold text-indigo-600 dark:text-indigo-500">
                   Deploy faster
                 </h2>
                 <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
@@ -42,18 +44,18 @@ export default function Features() {
                   cupiditate blanditiis ratione.
                 </p>
               </div>
-              <dl className="mt-10 grid gap-8 text-base/7 text-muted-foreground md:grid-cols-2 lg:max-w-none lg:grid-cols-3">
+              <dl className="mt-10 text-base/7 text-muted-foreground lg:max-w-none grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {features.map((feature, index) => (
                   <div
                     key={feature.name}
-                    className={cn("relative flex flex-col pl-9 lg:pr-6", {
+                    className={cn("relative pl-9 flex flex-col lg:pr-6", {
                       "lg:border-r": index + 1 !== features.length,
                     })}
                   >
                     <dt className="inline font-semibold text-foreground">
                       <feature.icon
                         aria-hidden="true"
-                        className="absolute left-1 top-1 size-5 text-primary"
+                        className="absolute left-1 top-1 size-5 text-indigo-600 dark:text-indigo-500"
                       />
                       {feature.name}
                     </dt>{" "}
@@ -68,3 +70,7 @@ export default function Features() {
     </div>
   );
 }
+
+`;
+
+export default exampleCode;
